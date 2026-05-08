@@ -1,0 +1,9 @@
+Baseline Model: Logistic Regression (TF-IDF)
+Accuracy: 0.81
+Macro F1-score: 0.73
+Weighted F1-score: 0.80
+
+Observations:
+- Model performs well on negative sentiment
+- Neutral class is harder to classify
+- Needs better deep learning model for improvement
