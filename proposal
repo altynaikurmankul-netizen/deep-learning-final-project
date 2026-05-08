@@ -1,0 +1,75 @@
+# Project Proposal
+
+## Project Title
+
+Sentiment Analysis of Airline Reviews Using Deep Learning
+
+
+## Problem Statement
+The goal of this project is to classify airline-related tweets into positive, neutral, or negative sentiment categories using deep learning techniques.
+This problem is important because sentiment analysis helps companies understand customer opinions and improve service quality.
+The model will predict the sentiment label of a tweet.
+
+
+## Dataset
+
+Dataset Name:
+Twitter US Airline Sentiment Dataset
+Dataset Source:
+https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+
+Dataset Description:
+
+* Approximately 14,000 tweets
+* Input: tweet text
+* Output labels:
+
+  * positive
+  * neutral
+  * negative
+* Format: CSV
+
+
+
+## Planned Method
+
+### Baseline Model
+
+TF-IDF + Logistic Regression
+
+### Deep Learning Model
+
+LSTM Neural Network
+
+### Loss Function
+
+CrossEntropyLoss
+
+### Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+
+### Data Split
+
+* Train: 70%
+* Validation: 15%
+* Test: 15%
+## Expected Challenges
+Possible challenges include:
+noisy tweet text,
+class imbalance,
+overfitting,
+preprocessing hashtags and emojis,
+limited computational resources.
+
+## Weekly Plan
+
+| Week   | Planned Work                | Expected Output                   |
+| ------ | --------------------------- | --------------------------------- |
+| Week 1 | Dataset setup and EDA       | Proposal and dataset summary      |
+| Week 2 | Preprocessing and baseline  | Baseline model results            |
+| Week 3 | Deep learning training      | LSTM results                      |
+| Week 4 | Final evaluation and report | Final repository and presentation |
